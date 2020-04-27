@@ -66,6 +66,7 @@ function checkAnswer(currentIndex) {
       console.log("gamePattern " + gamePattern);
       console.log("userClickedPattern " + userClickedPattern);
       animateWrong();
+      playSound("wrong");
       startOver();
     }
 }
